@@ -37,12 +37,14 @@ low-level input hooks. It is intended to help learners understand:
 ---
 
 ## 📂 Project Structure
+
+```
 keylogger/
-│
-├── main.py # Main program
-├── keystrokes.log # Output log file
-├── .gitignore
-├── README.md
+├── main.py           # Main program
+├── keystrokes.log    # Output log file
+├── .gitignore        # Git ignore rules
+└── README.md         # Project documentation
+```
 
 ## ▶️ How It Works (High-Level)
 
