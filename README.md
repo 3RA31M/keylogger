@@ -37,3 +37,45 @@ low-level input hooks. It is intended to help learners understand:
 ---
 
 ## 📂 Project Structure
+keylogger/
+│
+├── main.py # Main program
+├── keystrokes.log # Output log file
+├── .gitignore
+├── README.md
+
+## ▶️ How It Works (High-Level)
+
+1. A keyboard hook listens for key press events.
+2. Each key press is timestamped.
+3. Data is written to a local log file.
+4. The program runs continuously until stopped.
+
+> No network communication is used in this project.
+
+---
+
+## 🚫 What This Project Does NOT Do
+
+- ❌ No remote access
+- ❌ No data exfiltration
+- ❌ No persistence mechanisms
+- ❌ No hidden installation
+
+---
+
+## 🔐 Ethical Usage
+
+This project should only be used for:
+- Learning cybersecurity concepts
+- Testing detection software
+- Personal experimentation on owned systems
+
+Misuse may violate local and international laws.
+
+---
+
+## 📄 License
+
+This project is licensed for **educational use only**.
+You are responsible for how you use this code.
